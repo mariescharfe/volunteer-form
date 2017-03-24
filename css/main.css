@@ -19,11 +19,29 @@ span {
   color: #70ad55;
 }
 
-select, input {
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before,
+textarea,
+select,
+input {
   border-color: #6e8c62;
 }
 
 hr {
   border-color: #70ad55;
   opacity: .4;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+textarea {
+  min-height: 10em;
 }
