@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>rVolunteer Sign-up</title>
+  <title>Volunteer Sign-up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -13,31 +13,33 @@
 
 <body>
   <div>
-    <header>
-      <h1>Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    <header class="push-2">
+      <div class="island-1-2">
+        <h1 class="bold pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
+        <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      </div>
     </header>
     <form method="POST" action="https://formspree.io/scha0209@algonquinlive.com">
-      <fieldset>
-        <legend>Personal details</legend>
+      <fieldset class="island-1-2">
+        <legend class="bold giga push">Personal details</legend>
         <div>
           <div>
-            <label for="name">Full name</label>
+            <label class="pad-b-1-8" for="name">Full name</label>
             <input id="name" name="name">
-            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            <p class="italic micro pad-t-1-8">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
           <div>
-            <label for="nickname">What should we call you?</label>
+            <label class="pad-b-1-8" for="nickname">What should we call you?</label>
             <input id="nickname" name="nickname">
-            <p>What all your friends call you, e.g. “Liz”.</p>
+            <p class="italic micro pad-t-1-8">What all your friends call you, e.g. “Liz”.</p>
           </div>
           <div>
-            <label for="dob">Date of birth</label>
-            <input id="dob" name="dob" type="date">
+            <label class="pad-b-1-8" for="dob">Date of birth</label>
+            <input class="push" id="dob" name="dob" type="date">
           </div>
           <div>
-            <label for="size">T-shirt size</label>
-            <select id="size" name="size">
+            <label class="pad-b-1-8" for="size">T-shirt size</label>
+            <select class="push" id="size" name="size">
               <option value="">Select a t-shirt size</option>
               <option>Fitted: XS</option>
               <option>Fitted: S</option>
@@ -52,30 +54,32 @@
             </select>
           </div>
           <div>
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email">
+            <label class="pad-b-1-8" for="email">Email</label>
+            <input class="push" id="email" name="email" type="email">
           </div>
           <div>
-            <label for="phone">Phone number<span>(optional)</span></label>
+            <label class="pad-b-1-8" for="phone">Phone number<span class="italic"> (optional)</span></label>
             <input id="phone" name="phone" type="tel">
           </div>
         </div>
       </fieldset>
-      <hr>
-      <fieldset>
-        <legend>Address</legend>
+      <div class="gutter-1-2 pad-t-1-4 push-2">
+        <hr>
+      </div>
+      <fieldset class="island-1-2">
+        <legend class="bold giga push">Address</legend>
         <div>
           <div>
-            <label for="address">Street address</label>
-            <input id="address" name="address">
+            <label class="pad-b-1-8" for="address">Street address</label>
+            <input class="push" id="address" name="address">
           </div>
           <div>
-            <label for="city">City</label>
-            <input id="city" name="city">
+            <label class="pad-b-1-8 pad-t-1-2" for="city">City</label>
+            <input class="push" id="city" name="city">
           </div>
           <div>
-            <label for="province">Province</label>
-            <select id="province" name="province">
+            <label class="pad-b-1-8 pad-t-1-2" for="province">Province</label>
+            <select class="push" id="province" name="province">
               <option value="">Select a province</option>
               <option>Alberta</option>
               <option>British Columbia</option>
@@ -93,142 +97,150 @@
             </select>
           </div>
           <div>
-            <label for="postal">Postal code</label>
-            <input id="postal" name="city">
+            <label class="pad-b-1-8 pad-t-1-2" for="postal">Postal code</label>
+            <input class="push-1-2" id="postal" name="postal">
           </div>
         </div>
       </fieldset>
-      <hr>
-      <fieldset>
-        <legend>What activities are you interested in helping with?</legend>
-        <div>
-          <div>
+      <div class="gutter-1-2 pad-t-1-4 push-2">
+        <hr>
+      </div>
+      <fieldset class="island-1-2">
+        <legend class="bold giga">What activities are you interested in helping with?</legend>
+        <div class="push-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="digging-holes" name="activities" type="checkbox">
             <label for="digging-holes">Digging holes</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="getting-dirty" name="activities" type="checkbox">
             <label for="getting-dirty">Getting dirty</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="lifting-heavy-objects" name="activities" type="checkbox">
             <label for="lifting-heavy-objects">Lifting heavy objects</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="driving-people" name="activities" type="checkbox">
             <label for="driving-people">Driving people</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="transporting-trees" name="activities" type="checkbox">
             <label for="transporting-trees">Transporting trees</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="taking-photos" name="activities" type="checkbox">
             <label for="taking-photos">Taking photos</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="online-publishing" name="activities" type="checkbox">
             <label for="online-publishing">Online publishing</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="managing-people" name="activities" type="checkbox">
             <label for="managing-people">Managing people</label>
           </div>
         </div>
       </fieldset>
-      <fieldset>
-        <legend>Do you have any experience with the following?</legend>
-        <div>
-          <div>
+      <fieldset class="island-1-2">
+        <legend class="bold giga pad-t-1-4">Do you have any experience with the following?</legend>
+        <div class="pad-b-1-2">
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="shovels" name="experience" type="checkbox">
             <label for="shovels">Shovels</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="hand-held-gps" name="experience" type="checkbox">
             <label for="hand-held-gps">Hand-held GPS</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="writing-blogging" name="experience" type="checkbox">
             <label for="writing-blogging">Writing & blogging</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="photography" name="experience" type="checkbox">
             <label for="photography">Photography</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="trail-hill-climbing" name="experience" type="checkbox">
             <label for="trail-hill-climbing">Trail & hill climbing</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="bush-craft" name="experience" type="checkbox">
             <label for="bush-craft">Bush craft</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="atvs" name="experience" type="checkbox">
             <label for="atvs">ATVs</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="plant-id" name="experience" type="checkbox">
             <label for="plant-id">Plant identification</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="special-event-planning" name="experience" type="checkbox">
             <label for="special-event-planning">Special event planning</label>
           </div>
-          <div>
+          <div class="pad-t-1-8 pad-b-1-8">
             <input id="speaking-to-groups" name="experience" type="checkbox">
             <label for="speaking-to-groups">Speaking to groups</label>
           </div>
         </div>
       </fieldset>
-      <hr>
-      <fieldset>
-        <legend>Do you have a valid driver's license?</legend>
+      <div class="gutter-1-2 pad-t-1-4">
+        <hr>
+      </div>
+      <fieldset class="island-1-2">
+        <legend class="bold giga pad-t push-1-8">Do you have a valid driver's license?</legend>
         <div>
-          <div>
+          <div class="inline push-r">
             <input id="yes-license" name="license" type="radio">
             <label for="yes-license">Yes</label>
           </div>
-          <div>
+          <div class="inline">
             <input id="no-license" name="license" type="radio">
             <label for="no-license">No</label>
           </div>
         </div>
       </fieldset>
-      <fieldset>
-        <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+      <fieldset class="island-1-2">
+        <legend class="bold giga pad-t push-1-8">Do you have a pick-up truck you’d be willing to use?</legend>
         <div>
-          <div>
+          <div class="inline push-r">
             <input id="yes-truck" name="truck" type="radio">
             <label for="yes-truck">Yes</label>
           </div>
-          <div>
+          <div class="inline">
             <input id="no-truck" name="truck" type="radio">
             <label for="no-truck">No</label>
           </div>
         </div>
       </fieldset>
-      <fieldset>
-        <legend>Do you have up-to-date first-aid certification?</legend>
+      <fieldset class="island-1-2">
+        <legend class="bold giga pad-t push-1-8">Do you have up-to-date first-aid certification?</legend>
         <div>
-          <div>
+          <div class="inline push-r">
             <input id="yes-first-aid" name="first-aid" type="radio">
             <label for="yes-first-aid">Yes</label>
           </div>
-          <div>
+          <div class="inline">
             <input id="no-first-aid" name="first-aid" type="radio">
             <label for="no-first-aid">No</label>
           </div>
         </div>
       </fieldset>
-      <hr>
-      <fieldset>
-        <legend>Please let us know any comments or questions you may have.</legend>
+      <div class="gutter-1-2 pad-t-1-4">
+        <hr>
+      </div>
+      <fieldset class="island-1-2">
+        <legend class="bold giga">Please let us know any comments or questions you may have.</legend>
         <div>
           <textarea id="comments" name="comments"></textarea>
         </div>
       </fieldset>
-      <hr>
+      <div class="gutter-1-2 pad-t-1-4">
+        <hr>
+      </div>
       <div>
         <button type="submit">Apply</button>
       </div>
